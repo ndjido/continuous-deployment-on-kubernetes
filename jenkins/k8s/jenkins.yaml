@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: jenkins:1.642.4
+        image: gcr.io/jujubigdata/jenkins-sbt #jenkins:1.642.4
         ports:
         - containerPort: 8080
         - containerPort: 50000
